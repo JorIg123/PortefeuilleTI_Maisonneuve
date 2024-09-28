@@ -16,6 +16,19 @@ Pour exécuter l'application :
 
 
 - [Projet_Jeux_Drapeaux](./Projet_Jeux_Drapeaux/): Jeux_Drapeaux est une application qui vise à aider à mémoriser les drapeaux, les capitales, la localisation et d'autres aspects des différents pays. L'application offre un entraînement avant le jeu principal.
+Dans le code de l'application, les éléments suivants sont inclus :
+
+1. Utilisation des États
+2. Gestion des Formulaires
+3. Utilisation de React Router Dom v6
+4. Utilisation de l'Outlet
+5. Utilisation du Hook Navigate
+6. Rendu conditionnel
+7. Création et gestion du Contexte
+8. Gestion des Événements
+
+Pour plus de détails, voir le document : "Présentation des Aspects Clés de l'Application"
+
 Pour exécuter l'application :
   1. Clonez le dépôt.
   2. Installez les dépendances avec `npm install`.
