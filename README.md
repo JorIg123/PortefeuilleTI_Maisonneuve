@@ -16,7 +16,7 @@ Pour exécuter l'application :
 
 
 - [Projet_Jeux_Drapeaux](./Projet_Jeux_Drapeaux/): Jeux_Drapeaux est une application qui vise à aider à mémoriser les drapeaux, les capitales, la localisation et d'autres aspects des différents pays. L'application offre un entraînement avant le jeu principal.
-Dans le code de l'application, les éléments suivants sont inclus :
+Il s'agit d'un projet React. Dans le code de l'application, les éléments suivants sont inclus :
 
 1. Utilisation des États
 2. Gestion des Formulaires
