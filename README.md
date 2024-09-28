@@ -27,7 +27,7 @@ Dans le code de l'application, les éléments suivants sont inclus :
 7. Création et gestion du Contexte
 8. Gestion des Événements
 
-Pour plus de détails, voir le document : "Présentation des Aspects Clés de l'Application"
+Pour plus de détails, voir le document : "Présentation des Aspects Clés de l'Application". 
 
 Pour exécuter l'application :
   1. Clonez le dépôt.
@@ -36,3 +36,6 @@ Pour exécuter l'application :
   4. Un navigateur ouvrira la page: `http://localhost:3000`.
 
 - [Projet_Gestion_Formulaire_Py](./Projet_Gestion_Formulaire_Py/): Une description plus détaillée de l'application peut être consultée dans le document "TP2-Cmaisonneuve_goodOne.pdf".
+L'application est réalisée avec une programmation orientée objet.
+
+- [Projet_Impression_Basique_de_Facturation_Py](./Projet_Impression_Basique_de_Facturation_Py): Application avec un code basique en Python qui calcule et imprime le total des achats sous forme de facture. L'application permet de supprimer des achats de la facture si nécessaire et prend en compte les taxes selon l'article.
