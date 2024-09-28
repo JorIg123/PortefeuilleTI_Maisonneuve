@@ -36,6 +36,8 @@ Pour exécuter l'application :
   4. Un navigateur ouvrira la page: `http://localhost:3000`.
 
 - [Projet_Gestion_Formulaire_Py](./Projet_Gestion_Formulaire_Py/): Une description plus détaillée de l'application peut être consultée dans le document "TP2-Cmaisonneuve_goodOne.pdf".
-L'application est réalisée avec une programmation orientée objet.
+L'application est réalisée avec une programmation orientée objet en langage Python.
 
-- [Projet_Impression_Basique_de_Facturation_Py](./Projet_Impression_Basique_de_Facturation_Py): Application avec un code basique en Python qui calcule et imprime le total des achats sous forme de facture. L'application permet de supprimer des achats de la facture si nécessaire et prend en compte les taxes selon l'article.
+- [Projet_Impression_Basique_de_Facturation_Py](./Projet_Impression_Basique_de_Facturation_Py): Application avec un code basique en langage Python qui calcule et imprime le total des achats dans un format de facture. L'application permet de supprimer des achats de la facture si nécessaire et prend en compte les taxes selon l'article.
+
+- [Projet_Bacelet_Prison](./Projet_Bacelet_Prison): L'application notifie les inscrits de la position des prisonniers selon qu'ils soient à l'intérieur ou à l'extérieur de la prison. L'application est codée en Java et combine les patrons de conception État et Observateur.
