@@ -9,8 +9,10 @@ Ce référentiel contient tous les projets développés pendant mes études en t
 Une explication plus détaillée de l'utilisation de l'application se trouve dans le fichier "Application de gestion de covoiturage.docx".
 
 Pour exécuter l'application :
-1. npm install
-2. node server.js 
+  1. Clonez le dépôt.
+  2. Installez les dépendances avec `npm install`.
+  3. Lancez le serveur avec `node server.js`.
+  4. Ouvrez le navigateur et visitez `http://localhost:3000`.
 
 
 
