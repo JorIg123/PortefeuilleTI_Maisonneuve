@@ -34,3 +34,5 @@ Pour exécuter l'application :
   2. Installez les dépendances avec `npm install`.
   3. Lancez l'application avec `npm start`.
   4. Un navigateur ouvrira la page: `http://localhost:3000`.
+
+- [Projet_Gestion_Formulaire_Py](./Projet_Gestion_Formulaire_Py/): Une description plus détaillée de l'application peut être consultée dans le document "TP2-Cmaisonneuve_goodOne.pdf".
