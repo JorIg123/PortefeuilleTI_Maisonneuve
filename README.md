@@ -15,7 +15,7 @@ Pour exécuter l'application :
   4. Ouvrez le navigateur et visitez `http://localhost:3000`.
 
 
-- [Jeux_Drapeaux](./Jeux_Drapeaux/): Jeux_Drapeaux est une application qui vise à aider à mémoriser les drapeaux, les capitales, la localisation et d'autres aspects des différents pays. L'application offre un entraînement avant le jeu principal.
+- [Projet_Jeux_Drapeaux](./Projet_Jeux_Drapeaux/): Jeux_Drapeaux est une application qui vise à aider à mémoriser les drapeaux, les capitales, la localisation et d'autres aspects des différents pays. L'application offre un entraînement avant le jeu principal.
 Pour exécuter l'application :
   1. Clonez le dépôt.
   2. Installez les dépendances avec `npm install`.
