@@ -9,8 +9,8 @@ Ce référentiel contient tous les projets développés pendant mes études en t
 Une explication plus détaillée de l'utilisation de l'application se trouve dans le fichier "Application de gestion de covoiturage.docx".
 
 Pour exécuter l'application :
-npm install
-node server.js 
+1. npm install
+2. node server.js 
 
 
 
