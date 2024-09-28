@@ -1,1 +1,2 @@
 Ce dépôt contient certaines des applications développées lors de mes différents cours au collège.
+Les fichiers node_modules ont été supprimés dans les différentes applications. Pour rétablir le dossier, utilisez la commande : npm install.
