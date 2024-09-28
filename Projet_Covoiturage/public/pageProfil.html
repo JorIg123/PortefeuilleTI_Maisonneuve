@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Profil</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="styleProfil.css"/>
+  </head>
+  <body>
+    <main>
+      <h1 class="has-text-centered">Bienvenue sur le site de covoiturage</h1>
+      <div id="accueil">
+        <a href="/pagePrincipal">
+            <span class="icon-text">
+                <span class="icon"><i class="fa-solid fa-house" id="iconAccueil"></i></span>
+            </span>
+            <span class="is-size-4" id="textAccueil">Accueil</span>
+        </a>
+      </div>
+      <div id="Déconnexion">
+        <a href="/login">
+            <span class="icon-text">
+                <span class="icon"><i class="fa-solid fa-power-off" id="iconDéconnexion"></i></span>
+            </span>
+            <span class="is-size-4" id="textDéconnexion">Déconnexion</span>
+        </a>
+      </div>
+      <section id="formulaire">
+        <div class="field">
+          <h2>Modifier mon profil</h2>
+          <form id="questionnaire">
+            <section id="line1">
+              <span id="erreurNomModifier">Erreur champ vide</span>
+              <span id="erreurPrenomModifier">Erreur champ vide</span>
+            </section>
+            <section id="line2">
+              <input type="text" requiered placeholder="Nom" name="nomModifier" id="nomModifier" class="input is-rounded">
+              <input type="text" requiered placeholder="Prenom" name="prenomModifier" id="prenomModifier" class="input is-rounded">
+            </section>
+            <section id="line3">
+              <span id="erreurAdresseModifier">Erreur champ vide</span>
+              <span id="erreurTelephoneModifier">Erreur champ vide</span>
+            </section>
+            <section id="line4">
+              <input type="text" requiered placeholder="Adresse" name="adresseModifier" id="adresseModifier" class="input is-rounded">
+              <input type="text" requiered placeholder="123-456-7890" name="numeroTelephoneModifier" id="numeroTelephoneModifier" class="input is-rounded">
+            </section>
+            <section id="centre">
+              <span id="erreurEmailModifier">Erreur, le champs ne respecte pas le bon format</span>
+              <input type="text" required placeholder="exemple@exemple.ca" name ="emailModifier" id="emailModifier" class="input is-rounded">
+              <span id="erreurOldPasswordModifier">Erreur le mot de passe n'est pas pareil que l'ancien</span>
+              <input type="password" placeholder="Old password" name ="oldPasswordModifier" id="oldPasswordModifier" class="input is-rounded">
+              <span id="erreurNewPasswordModifier">Erreur champ vide</span>
+              <input type="password" placeholder="New password" name ="newPasswordModifier" id="newPasswordModifier" class="input is-rounded">
+              <span id="erreurConfirmPasswordModifier">Erreur le mot de passe n'est pas pareil</span>
+              <input type="password" placeholder="Confirm password" name ="confirmPasswordModifier" id="confirmPasswordModifier" class="input is-rounded">
+            </section>
+          </form>
+        </div>
+        <section id="boutons">
+          <div class = "container">
+            <button type="button" value="supprimer" id="supprimer" class="button is-danger is-rounded is-medium ">Se désinscrire</button>
+            <button type="button" value="modifier" id="modifier" class="button is-info is-rounded is-medium ">Modifier</button>
+          </div>
+        </section>
+      </section>
+    </main>
+     <!-- Appel du script -->
+    <script src="scriptProfil.js"></script>
+  </body>
+</html>

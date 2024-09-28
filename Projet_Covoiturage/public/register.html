@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Covoiturage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="styleRegister.css"/>
+  </head>
+  <body>
+
+    <main>
+        <h1 class="has-text-centered">Bienvenue sur le site de covoiturage</h1>
+        <section id="formulaire">
+          <div class="field">
+            <h2>Register</h2>
+            <form id="formulaireRegister">
+              <section id="line1">
+                <span id="erreurNomRegister">Erreur champ vide</span>
+                <span id="erreurPrenomRegister">Erreur champ vide</span>
+              </section>
+              <section id="line2">
+                <input type="text" requiered placeholder="Nom" name="nomRegister" id="nomRegister" class="input is-rounded">
+                <input type="text" requiered placeholder="Prenom" name="prenomRegister" id="prenomRegister" class="input is-rounded">
+              </section>
+              <section id="line3">
+                <span id="erreurAdresseRegister">Erreur champ vide</span>
+                <span id="erreurTelephoneRegister">Erreur champ vide</span>
+              </section>
+              <section id="line4">
+                <input type="text" requiered placeholder="Adresse" name="adresseRegister" id="adresseRegister" class="input is-rounded">
+                <input type="text" requiered placeholder="123-456-7890" name="numeroTelephoneRegister" id="numeroTelephoneRegister" class="input is-rounded">
+              </section>
+              <section id="centre">
+                <!--Modification du message d'erreur-->
+                <span id="erreurEmailRegister">Erreur, le champs ne respecte pas le bon format</span>
+                <input type="text" required placeholder="exemple@exemple.ca" name ="emailRegister" id="emailRegister" class="input is-rounded">
+                <span id="erreurPasswordRegister">Erreur champ vide</span>
+                <input type="password" placeholder="Password" name ="passwordRegister" id="passwordRegister" class="input is-rounded">
+                <!--Modification du message d'erreur-->
+                <span id="erreurConfirmPasswordRegister">Erreur le mot de passe n'est pas pareil</span>
+                <input type="password" placeholder="Confirm password" name ="confirmPasswordRegister" id="confirmPasswordRegister" class="input is-rounded">
+              </section>
+            </form>
+          </div>
+          <section id="boutons">
+            <button type="button" id="Register" class="button is-info is-rounded is-fullwidth is-medium">Register</button>
+          </section>
+      </section>
+      <p style="text-align: center; margin-top: 20px;">Deja un compte sur Covoiturage? <a href="./login.html">S'identifier</a></p>
+    </main>
+    <!-- Appel du script -->
+    <script src="scriptRegister.js">
+    </script>
+  </body>
+</html>

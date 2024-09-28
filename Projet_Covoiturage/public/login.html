@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Covoiturage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="styleLogin.css"/>
+  </head>
+  <body>
+    <main>
+      <h1 class="has-text-centered">Bienvenue sur le site de covoiturage</h1>
+      <section id="formulaire">
+        <div class="field">
+          <h2>Login</h2>
+          <form id="login">
+            <section id="formulaireLogin">
+              <span id="erreurEmailLogin">Erreur, le champs ne respecte pas le bon format</span>
+                <input type="text" required placeholder="exemple@exemple.ca" name ="emailLogin" id="emailLogin" class="input is-rounded">
+              <span id="erreurPasswordLogin">Erreur, le mot de passe est mauvais</span>
+                <input type="password" placeholder="Password" name ="passwordLogin" id="passwordLogin" class="input is-rounded">
+            </section>
+          </form>
+        </div>
+        <section id="boutons">
+          <button type="button" id="Login" class="button is-info is-rounded is-fullwidth is-medium">Login</button>
+        </section>
+      </section>
+      <p style="text-align: center; margin-top: 20px;">Pas encore de compte sur Covoiturage? <a href="./register">S'inscrire</a></p>
+    </main>
+    <!-- Appel du script -->
+    <script src="scriptLogin.js"></script>
+  </body>
+</html>

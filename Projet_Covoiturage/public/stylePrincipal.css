@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  
+body {
+    width: 80%;
+    margin: 0 auto;
+}  
+
+#titre {
+    height: 61px;
+    width: 50% ;
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    h1{
+        margin-left: 10px;
+        margin-top: 10px;
+        color:#3E8ED0;
+    }
+}
+
+#profil {
+    margin-top: 10px;
+    right: 0%;
+    width: 15%;
+    position: absolute;
+    text-align: center;
+}
+
+#iconProfil {
+    margin-top: 15px;
+    color: black;
+}
+
+#textProfil {
+    color: black;
+}
+
+#tableauPrincipal, #barreRecherche {
+    left: 30%;
+    position: absolute;
+    width: 55%;
+}
+
+#barreRecherche {
+    top: 133px;
+}
+
+#tableauPrincipal {
+    top: 175px;
+    border-collapse: collapse;
+}
+
+#liens ul{
+    position: absolute;
+    width: 16%;
+    top: 133px;;
+    ul{
+        margin-left: -25px;
+        list-style-type: none;
+    }
+    li{
+        height: 35px;
+        margin-left: -15px;
+        margin-bottom: 2px;
+        text-indent: 5%;
+    }
+}

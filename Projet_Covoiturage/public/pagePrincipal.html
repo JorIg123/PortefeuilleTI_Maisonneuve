@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Covoiturage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="stylePrincipal.css"/>
+  </head>
+  <body>
+    <main>
+      <div id="titre">
+        <h1 class="title is-2">Covoiturage</h1>
+      </div>
+      <div id="profil">
+        <a href="/pageProfil">
+          <span class="icon-text">
+            <span class="icon"><i class="fa-regular fa-circle-user" id="iconProfil"></i></span>
+          </span>
+          <span class="is-size-4" id="textProfil">Profil</span>
+        </a>
+      </div>
+      <div id="liens">
+        <ul>
+            <li><a href="/pageAjouterDeplacementDemandes">Ajouter un déplacement demandé</a></li>
+            <li><a href="/pageAjouterDeplacementOfferts">Ajouter un déplacement offert</a></li>
+            <li><a href="/pageModifierDeplacementDemandes">Modifier un déplacement demandé</a></li>            
+            <li><a href="/pageModifierDeplacementOfferts">Modifier un déplacement offert</a></li>
+            <li><a href="/pagevoirDeplacementDemandes">Voir les déplacements demandés</a></li>
+            <li><a href="/pageReservation">Supprimer une réservation</a></li>
+        </ul>
+    </div>
+    <div id="barreRecherche">
+      <input type="text" requiered placeholder="Search" name="searchBar" id="searchBar" class="input">
+    </div>
+    <div id="tableauPrincipal">
+      <table class="table" id="tableauDep">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Conducteur</th>
+            <th>Destination</th>
+            <th>Date</th>
+            <th>Heure</th>
+            <th>Place</th>
+            <th>Cout</th>
+            <th>Comptant</th>
+            <th>Interact</th>
+            <th>Precision</th>
+            <th>Reservation</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    </main>
+    <!-- Appel du script -->
+    <script src="scriptPrincipal.js">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Covoiturage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="styleModifierDeplacementOfferts.css"/>
+  </head>
+  <body>
+    <main>
+        <h1 class="has-text-centered">Modifier un deplacement Offert</h1>
+        <div id="accueil">
+          <a href="/pagePrincipal">
+              <span class="icon-text">
+                  <span class="icon"><i class="fa-solid fa-house" id="iconAccueil"></i></span>
+              </span>
+              <span class="is-size-4" id="textAccueil">Accueil</span>
+          </a>
+        </div>
+        <div id="profil">
+          <a href="/pageProfil">
+            <span class="icon-text">
+              <span class="icon"><i class="fa-regular fa-circle-user" id="iconProfil"></i></span>
+            </span>
+            <span class="is-size-4" id="textProfil">Profil</span>
+          </a>
+        </div>
+        <main>
+          <section id="formulaire">
+            <div class="field">
+              <form id="formulaireModifierOfferts">
+                <section id="line">
+                  <span id="erreurDeplacementOffertID">Rentrer un ID pour modifier</span>
+                </section>
+                <input type="text" requiered placeholder="Entrez l'id de la demande a modifiez" name="IDDemande" id="IDDemande" class="input is-rounded">
+                <section id="line1">
+                    <span id="erreurDeplacementOffertDate">Doit etre dans le futur</span>
+                    <span id="erreurDeplacementOffertHeure">Doit etre dans le futur</span>
+                </section>
+                <section id="line2">
+                    <input type="date" requiered value="yyyy-MM-dd" name="DeplacementOffertDate" id="DeplacementOffertDate" class="input is-rounded">
+                    <input type="time" requiered name="DeplacementOffertHeure" id="DeplacementOffertHeure" class="input is-rounded">
+                </section>
+                <section id="line3">
+                  <span id="erreurDeplacementOffertNombreDePlaces">Doit etre 10 ou moins</span>
+                  <span id="erreurDeplacementOffertCout">Doit etre un nombre</span>
+                </section>
+                <section id="line3">
+                    <input type="text" requiered placeholder="Entrez le nombre de places" name="nbrPlace" id="nbrPlace" class="input is-rounded">
+                    <input type="text" requiered placeholder="Entrez le cout" name="cout" id="cout" class="input is-rounded">
+                </section>
+                <section id="line4">
+                  <span id="erreurDeplacementComptant">La reponse doit etre OUI/NON</span>
+                  <span id="erreurDeplacementInteract">La reponse doit etre OUI/NON</span>                    
+                </section>
+                <section id="line5">
+                  <input type="text" requiered placeholder="Comptant(OUI ou NON)" name="Comptant" id="Comptant" class="input is-rounded">
+                  <input type="text" requiered placeholder="Interact(OUI ou NON)" name="Interact" id="Interact" class="input is-rounded">
+                </section>
+                <section id="line6">
+                  <label>Destination:</label>
+                  <select id="DestinationDemandePossible">
+                      <option value="Saint-Agathe">Saint-Agathe</option>
+                      <option value="Saint-Donat">Saint-Donat</option>
+                  </select>
+                </section>
+                <textarea name="Precision" id="Precision" cols="43" rows="5"></textarea>
+              </form>
+              <section id="boutons">
+                  <button type="button" value="modifier" id="Modifier" class="button is-info is-rounded is-fullwidth is-medium">Modifier</button>
+              </section>
+            </div>
+          </section>
+        </main>
+        <div id="tableauPrincipal">
+            <table class="table" id="tableauDep">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Destination</th>
+                  <th>Date</th>
+                  <th>Heure</th>
+                  <th>Place</th>
+                  <th>Cout</th>
+                  <th>Comptant</th>
+                  <th>Interact</th>
+                  <th>Precision</th>
+                  <th>Supprimer</th>
+                </tr>
+              </thead>
+            </table>
+        </div>
+    </main>
+    <!-- Appel du script -->
+    <script src="scriptModifierOfferts.js">
+    </script>
+  </body>
+</html>
