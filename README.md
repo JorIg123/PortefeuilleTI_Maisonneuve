@@ -43,7 +43,7 @@ L'application est réalisée avec une programmation orientée objet en langage P
 - [Projet_Bacelet_Prison](./Projet_Bacelet_Prison): L'application notifie les inscrits de la position des prisonniers selon qu'ils soient à l'intérieur ou à l'extérieur de la prison. L'application est codée en Java et combine les patrons de conception État et Observateur. La classe Test.java contient la méthode "public static void main". Une instance de la classe Bracelet associée à un prisonnier est créée avec les coordonnées, le nom du prisonnier, sa condition par rapport à la prison, et la prison dans laquelle il est détenu. Une instance de Bracelet peut inscrire un observateur et établir les limites en relation avec la prison pour les notifications.
 
 - [Projet_Salon_Coifure](./projet2-dev-app-main): Projet en développement, réalisé par mon équipe de développement d'applications du collège. Parmi les technologies utilisées, on trouve : React, SemanticUI, SQLite.
-L'application permet la gestion de différents salons de coiffure, le profil du salon, les horaires du salon ainsi que ceux des stylistes. Elle permet également aux membres/clients du site de gérer leur profil, leurs rendez-vous, de donner des avis sur un salon, et de choisir leurs salons favoris.
+L'application permet la gestion de différents salons de coiffure, le profil du salon, les horaires du salon ainsi que ceux des coifeurs. Elle permet également aux membres/clients du site de gérer leur profil, leurs rendez-vous, de donner des avis sur un salon, et de choisir leurs salons favoris.
 
 Pour démarrer l'application :
 
