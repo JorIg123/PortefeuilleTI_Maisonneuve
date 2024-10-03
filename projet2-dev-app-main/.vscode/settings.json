@@ -1,0 +1,6 @@
+{
+    "dataworkspace.excludedProjects": [
+        "reactapp/BdProjet/BdProjet.sqlproj"
+    ],
+    "liveServer.settings.port": 3001
+}

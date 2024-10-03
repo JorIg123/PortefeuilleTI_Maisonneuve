@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ElBarber</title>
+    <link rel="icon" type="image/x-icon" href="/reactapp/public/img/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+      <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="/reactapp/public/styles.css" />
+  </head>
+
+
+
+
+  <body>
+    <div>
+      <div>
+        <header >
+          <div class="navbar">
+            <img id="logo" src="/reactapp/public/img/logo.png" alt="logo"/>
+            <div class="container">
+              <div>
+                <a href="/reactapp/public/coiffeur/acceuilCoiffeur.html">Accueil</a>
+                <a href="/reactapp/public/coiffeur/profileCoiffeur.html">Profil</a>
+                <a href="/reactapp/public/coiffeur/historiqueCoiffeur.html">Historique</a>
+                <a href="/reactapp/public/coiffeur/rendezvousCoiffeur.html">A venir</a>
+              </div>
+
+            <div id="connexionDeconnexion">
+                <a id="connexion" href="/reactapp/public/coiffeur/connexionCoiffeur.html">Connexion</a>
+                <a id="deconnexion" href="/reactapp/public/Accueil.html">Deconnexion</a>
+            </div>
+
+            </div>
+          </div>
+          <div class="menu-header">
+            <div>
+              <h1 id="titre">EL BARBER</h1>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <main>
+      <div class="calendar-container">
+        <div class="header-calendar">
+          <ul class="ul-calendar">
+            <li class="li-calendar">Dimanche</li>
+            <li class="li-calendar">Lundi</li>
+            <li class="li-calendar">Mardi</li>
+            <li class="li-calendar">Mercredi</li>
+            <li class="li-calendar">Jeudi</li>
+            <li class="li-calendar">Vendredi</li>
+            <li class="li-calendar">Samedi</li>
+          </ul>
+
+          <ul class="daynumbers">
+            <li class="li-calendar">20</li>
+            <li class="li-calendar">21</li>
+            <li class="li-calendar">22</li>
+            <li class="li-calendar">23</li>
+            <li class="li-calendar">24</li>
+            <li class="li-calendar">25</li>
+            <li class="li-calendar">26</li>
+          </ul>
+        </div>
+
+        <div class="timeslots-container">
+          <ul class="timeslots">
+            <li class="li-calendar">9<sup>am</sup></li>
+            <li class="li-calendar">10<sup>am</sup></li>
+            <li class="li-calendar">11<sup>am</sup></li>
+            <li class="li-calendar">12<sup>am</sup></li>
+            <li class="li-calendar">1<sup>pm</sup></li>
+            <li class="li-calendar">2<sup>pm</sup></li>
+            <li class="li-calendar">3<sup>pm</sup></li>
+            <li class="li-calendar">4<sup>pm</sup></li>
+            <li class="li-calendar">5<sup>pm</sup></li>
+          </ul>
+        </div>
+
+        <div class="event-container"></div>
+      </div>
+    </main>
+
+    <footer>
+        <div class="container">
+          <div class="flex-contact">
+            <div class="flex">
+              <h2>Pour nous joindre</h2>
+  
+              <address>
+                <a href="mailto:ElBarber@gmail.com">ElBarber@gmail.com</a>
+              </address>
+              <address>
+                <a href="tel:438-123-456">438-123-456</a>
+              </address>
+              <div class="flex-logo">
+                <img class="logo2" src="/reactapp/public/img/facebook.png" alt="facebook" />
+                <img id="logo2-insta" src="/reactapp/public/img/instagram.png" alt="instagram" />
+                <img class="logo2" src="/reactapp/public/img/linkedin.png" alt="linkedin" />
+              </div>
+            </div>
+            <div class="flex-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22350.70532600428!2d-73.54720552183143!3d45.55358099250924!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91bf5bacbeffd%3A0x68ff300997eff5c!2sColl%C3%A8ge%20de%20Maisonneuve!5e0!3m2!1sfr!2sca!4v1702967268796!5m2!1sfr!2sca"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <script src="script.js"></script>
+    </body>
+  </html>
