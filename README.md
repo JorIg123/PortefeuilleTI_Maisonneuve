@@ -47,5 +47,5 @@ L'application permet la gestion de différents salons de coiffure, le profil du 
 
 Pour démarrer l'application :
 
-  1. Dans un CLI, placez-vous dans le répertoire /reactapp du projet et entrez la commande: npm start
-  2. Dans un second CLI, placez-vous dans /backend et entrez la commande: node server.js
+  1. Dans un CLI, placez-vous dans le répertoire /reactapp du projet et entrez la commande: `npm start`.
+  2. Dans un second CLI, placez-vous dans /backend et entrez la commande: `node server.js`.
