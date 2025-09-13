@@ -6,9 +6,9 @@ Ce référentiel contient tous les projets développés pendant mes études en t
 ## Projets
 - [Projet_Covoiturage](./Projet_Covoiturage/): L'application web de gestion de covoiturage qui permet l'enregistrement des utilisateurs, de voyages (offre et demande d'itinéraires), de réservations dans un contexte général. L'application permet la manipulation des informations associées à chaque utilisateur, voyage offert ou demandé, ou réservation pour effectuer une modification ou suppression.
 
-Une explication plus détaillée de l'utilisation de l'application se trouve dans le fichier "Application de gestion de covoiturage.docx".
+  Une explication plus détaillée de l'utilisation de l'application se trouve dans le fichier "Application de gestion de covoiturage.docx".
 
-Pour exécuter l'application :
+  Pour exécuter l'application :
   1. Clonez le dépôt.
   2. Installez les dépendances avec `npm install`.
   3. Lancez le serveur avec `node server.js`.
@@ -18,18 +18,18 @@ Pour exécuter l'application :
 - [Projet_Jeux_Drapeaux](./Projet_Jeux_Drapeaux/): Jeux_Drapeaux est une application qui vise à aider à mémoriser les drapeaux, les capitales, la localisation et d'autres aspects des différents pays. L'application offre un entraînement avant le jeu principal.
 Il s'agit d'un projet React. Dans le code de l'application, les éléments suivants sont inclus :
 
-1. Utilisation des États
-2. Gestion des Formulaires
-3. Utilisation de React Router Dom v6
-4. Utilisation de l'Outlet
-5. Utilisation du Hook Navigate
-6. Rendu conditionnel
-7. Création et gestion du Contexte
-8. Gestion des Événements
+  1. Utilisation des États
+  2. Gestion des Formulaires
+  3. Utilisation de React Router Dom v6
+  4. Utilisation de l'Outlet
+  5. Utilisation du Hook Navigate
+  6. Rendu conditionnel
+  7. Création et gestion du Contexte
+  8. Gestion des Événements
 
-Pour plus de détails, voir le document : "Présentation des Aspects Clés de l'Application". 
+  Pour plus de détails, voir le document : "Présentation des Aspects Clés de l'Application". 
 
-Pour exécuter l'application :
+  Pour exécuter l'application :
   1. Clonez le dépôt.
   2. Installez les dépendances avec `npm install`.
   3. Lancez l'application avec `npm start`.
@@ -45,7 +45,7 @@ L'application est réalisée avec une programmation orientée objet en langage P
 - [Projet_Salon_Coifure](./projet2-dev-app-main): Projet en développement, réalisé par mon équipe de développement d'applications du collège. Parmi les technologies utilisées, on trouve : React, SemanticUI, SQLite.
 L'application permet la gestion de différents salons de coiffure, le profil du salon, les horaires du salon ainsi que ceux des coifeurs. Elle permet également aux membres/clients du site de gérer leur profil, leurs rendez-vous, de donner des avis sur un salon, et de choisir leurs salons favoris.
 
-Pour démarrer l'application :
+  Pour démarrer l'application :
 
   1. Dans une interface de ligne de commande (CLI), en se plaçant dans le répertoire /reactapp du projet, exécutez la commande `npm install`, puis la commande `npm start`.
   2. Sans fermer le premier CLI, dans un second CLI, placez-vous dans le répertoire /backend et exécutez la commande `npm install`, puis la commande `node server.js`.
