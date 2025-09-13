@@ -1,10 +1,10 @@
 
 # PortefeuilleTI_Maisonneuve
 
-Ce référentiel contient tous les projets développés pendant mes études en technologies de l'information et développement d'applications au Collège de Maisonneuve. Les dossiers node_modules ont été supprimés dans les différentes applications. Pour les rétablir, utilisez la commande "npm install" avant d'exécuter l'application.
+Ce référentiel contient quelques projets développés pendant mes études en technologies de l'information et développement d'applications au Collège de Maisonneuve. Les dossiers node_modules ont été supprimés dans les différentes applications. Pour les rétablir, utilisez la commande "npm install" avant d'exécuter les application.
 
 ## Projets
-- [Projet_Covoiturage](./Projet_Covoiturage/): L'application web de gestion de covoiturage qui permet l'enregistrement des utilisateurs, de voyages (offre et demande d'itinéraires), de réservations dans un contexte général. L'application permet la manipulation des informations associées à chaque utilisateur, voyage offert ou demandé, ou réservation pour effectuer une modification ou suppression.
+- [Projet_Covoiturage](./Projet_Covoiturage/): Application web de gestion de covoiturage permettant l'enregistrement des utilisateurs, des voyages (offres et demandes d'itinéraires) et des réservations. L'application permet la manipulation des informations associées à chaque utilisateur, voyage offert ou demandé, ou réservation, afin de permettre leur modification ou leur suppression.
 
   Une explication plus détaillée de l'utilisation de l'application se trouve dans le fichier "Application de gestion de covoiturage.docx".
 
@@ -15,7 +15,7 @@ Ce référentiel contient tous les projets développés pendant mes études en t
   4. Ouvrez le navigateur et visitez `http://localhost:3000`.
 
 
-- [Projet_Jeux_Drapeaux](./Projet_Jeux_Drapeaux/): Jeux_Drapeaux est une application qui vise à aider à mémoriser les drapeaux, les capitales, la localisation et d'autres aspects des différents pays. L'application offre un entraînement avant le jeu principal.
+- [Projet_Jeux_Drapeaux](./Projet_Jeux_Drapeaux/): JJeux_Drapeaux est une application qui vise à aider à mémoriser les drapeaux, les capitales, leur localisation et d'autres aspects des différents pays. L'application offre un entraînement avant le jeu principal.
 Il s'agit d'un projet React. Dans le code de l'application, les éléments suivants sont inclus :
 
   1. Utilisation des États
@@ -38,9 +38,9 @@ Il s'agit d'un projet React. Dans le code de l'application, les éléments suiva
 - [Projet_Gestion_Formulaire_Py](./Projet_Gestion_Formulaire_Py/): Une description plus détaillée de l'application peut être consultée dans le document "TP2-Cmaisonneuve_goodOne.pdf".
 L'application est réalisée avec une programmation orientée objet en langage Python.
 
-- [Projet_Impression_Basique_de_Facturation_Py](./Projet_Impression_Basique_de_Facturation_Py): Application avec un code basique en langage Python qui calcule et imprime le total des achats dans un format de facture. L'application permet de supprimer des achats de la facture si nécessaire et prend en compte les taxes selon l'article.
+- [Projet_Impression_Basique_de_Facturation_Py](./Projet_Impression_Basique_de_Facturation_Py):Application avec un code basique en langage Python, qui calcule et imprime le total des achats dans un format de facture. L'application permet de supprimer des achats de la facture si nécessaire et prend en compte les taxes selon les articles.
 
-- [Projet_Bacelet_Prison](./Projet_Bacelet_Prison): L'application notifie les inscrits de la position des prisonniers selon qu'ils soient à l'intérieur ou à l'extérieur de la prison. L'application est codée en Java et combine les patrons de conception État et Observateur. La classe Test.java contient la méthode "public static void main". Une instance de la classe Bracelet associée à un prisonnier est créée avec les coordonnées, le nom du prisonnier, sa condition par rapport à la prison, et la prison dans laquelle il est détenu. Une instance de Bracelet peut inscrire un observateur et établir les limites en relation avec la prison pour les notifications.
+- [Projet_Bacelet_Prison](./Projet_Bacelet_Prison): L'application notifie les inscrits de la position des prisonniers, selon qu’ils se trouvent à l’intérieur ou à l’extérieur de la prison. L'application est codée en Java et combine les patrons de conception État et Observateur. La classe Test.java contient la méthode public static void main. Une instance de la classe Bracelet, associée à un prisonnier, est créée avec les coordonnées, le nom du prisonnier, son statut par rapport à la prison, et la prison dans laquelle il est détenu. Une instance de Bracelet peut inscrire un observateur et définir les limites en relation avec la prison pour les notifications.
 
 - [Projet_Salon_Coifure](./projet2-dev-app-main): Projet en développement, réalisé par mon équipe de développement d'applications du collège. Parmi les technologies utilisées, on trouve : React, SemanticUI, SQLite.
 L'application permet la gestion de différents salons de coiffure, le profil du salon, les horaires du salon ainsi que ceux des coifeurs. Elle permet également aux membres/clients du site de gérer leur profil, leurs rendez-vous, de donner des avis sur un salon, et de choisir leurs salons favoris.
